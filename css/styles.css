@@ -6,9 +6,12 @@
     --primary-text-color: #757575 ;
     --title-text-color: #212121 ; 
     --white-title-color: #ffffff ;
+    --logo-color: #000000;
     --accent-color: #2196F3 ;
     --footer-link-color: rgba(255, 255, 255, 0.6);
     --product-button-color: #F5F4FA;
+    --hero-footer-background: #2F303A;
+
 }
 body {
     color: var(--primary-text-color)
@@ -20,7 +23,7 @@ ul {
 color: var(--accent-color) ;
 }
 .logo.studio {
-    color: var(--title-text-color);
+    color: var(--logo-color);
 }
 .site-nav .link {
     color: var(--title-text-color);
@@ -35,6 +38,9 @@ color: var(--accent-color) ;
     color: var(--accent-color);
 }
 /* Герой */
+.hero {
+    background-color: var(--hero-footer-background);
+}
 .hero-title {
     color: var(--white-title-color);
 }
@@ -45,6 +51,9 @@ color: var(--accent-color) ;
 /* Переваги */
 .features-title, .work-title, .team-title {
     color: var(--title-text-color)
+}
+.team {
+    background-color: var(--product-button-color);
 }
 .features, .workers-name {
     color: var(--title-text-color)
@@ -68,4 +77,11 @@ font: ra;
 }
 .products-list .product-name {
     color: var(--title-text-color)
+}
+/* Змінити */
+footer {
+    background-color: var(--hero-footer-background);
+}
+.white-logo {
+    color: var(--white-title-color);
 }
