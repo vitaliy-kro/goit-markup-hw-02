@@ -1,1 +1,71 @@
+/* Основний колір тексту color: #757575; */
+/* Колір заголовків color: #212121 ;  */
+/* Білий колір (Основний заголовок) color : #ffffff ;  */
+/* Колір кнопки + лого color: #2196F3 ;  */
+:root {
+    --primary-text-color: #757575 ;
+    --title-text-color: #212121 ; 
+    --white-title-color: #ffffff ;
+    --accent-color: #2196F3 ;
+    --footer-link-color: rgba(255, 255, 255, 0.6);
+    --product-button-color: #F5F4FA;
+}
+body {
+    color: var(--primary-text-color)
+    }   
+ul {
+    list-style-type: none;}
+/* Шапка */
+.logo.web {
+color: var(--accent-color) ;
+}
+.logo.studio {
+    color: var(--title-text-color);
+}
+.site-nav .link {
+    color: var(--title-text-color);
+}
+.site-nav .link:hover, .site-nav .link:focus{
+    color: var(--accent-color)
+}
+.auth-link .link {
+    color: var(--primary-text-color);
+}
+.auth-link .link:hover, .auth-link .link:focus {
+    color: var(--accent-color);
+}
+/* Герой */
+.hero-title {
+    color: var(--white-title-color);
+}
+.main-button {
+    color: var(--white-title-color);
+    background-color: var(--accent-color);
+}
+/* Переваги */
+.features-title, .work-title, .team-title {
+    color: var(--title-text-color)
+}
+.features, .workers-name {
+    color: var(--title-text-color)
+}
+.location {
+    color: var(--white-title-color);
+}
+.auth-link .footer-link {
+color:rgba(255, 255, 255, 0.6);
+}
 
+/* Portfolio  */
+.products .product-button {
+    color: var(--title-text-color);
+background-color: var(--product-button-color);
+font: ra;
+}
+.products .product-button:hover, .product-button:focus {
+    color: #ffffff;
+    background-color:#2196F3 ;
+}
+.products-list .product-name {
+    color: var(--title-text-color)
+}
