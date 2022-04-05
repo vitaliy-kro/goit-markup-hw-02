@@ -14,25 +14,41 @@
 
 }
 body {
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
     }   
 ul {
     list-style-type: none;}
 /* Шапка */
+.logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
 .logo.web {
-color: var(--accent-color) ;
+color: var(--accent-color);
 }
 .logo.studio {
     color: var(--logo-color);
 }
 .site-nav .link {
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0,02em;
 }
 .site-nav .link:hover, .site-nav .link:focus{
     color: var(--accent-color)
 }
 .auth-link .link {
     color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0,02em;
 }
 .auth-link .link:hover, .auth-link .link:focus {
     color: var(--accent-color);
@@ -43,21 +59,57 @@ color: var(--accent-color) ;
 }
 .hero-title {
     color: var(--white-title-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;    
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 .main-button {
     color: var(--white-title-color);
     background-color: var(--accent-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;    
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
 }
 /* Переваги */
 .features-title, .work-title, .team-title {
-    color: var(--title-text-color)
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+.features,
+.workers-name {
+    color: var(--title-text-color) }
+.features {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+}
+.features-title .description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,7;
 }
 .team {
     background-color: var(--product-button-color);
 }
-.features, .workers-name {
-    color: var(--title-text-color)
+.workers-name {
+font-weight: 500;
+font-size: 16px;
+line-height: 1,8;
+text-align: center;
 }
+
 .location {
     color: var(--white-title-color);
 }
@@ -82,6 +134,6 @@ font: ra;
 footer {
     background-color: var(--hero-footer-background);
 }
-.white-logo {
+.logo .white {
     color: var(--white-title-color);
 }
