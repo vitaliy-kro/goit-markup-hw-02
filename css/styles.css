@@ -18,7 +18,7 @@ body {
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
     }   
-ul {
+.list {
     list-style-type: none;}
 /* Шапка */
 .logo {
@@ -80,7 +80,7 @@ color: var(--accent-color);
     letter-spacing: 0.06em;
 
 }
-/* Переваги */
+/* Переваги та працівники */
 .features-title, .work-title, .team-title {
     color: var(--title-text-color);
     font-weight: 700;
@@ -116,7 +116,7 @@ font-size: 16px;
 line-height: 1,18;
 text-align: center;
 }
-
+/* Футер */
 .location {
     color: var(--white-title-color);
     font-style: normal;
@@ -129,6 +129,13 @@ font-style: normal;
 font-size: 14px;
 line-height: 1,71;
 text-decoration: none;
+}
+.footer {
+    background-color: var(--hero-footer-background);
+}
+
+.logo.white {
+    color: var(--white-title-color);
 }
 
 /* Portfolio  */
@@ -157,10 +164,4 @@ text-decoration: none;
     font-size: 16px;
     line-height: 1,87;
 }
-/* Змінити */
-.footer {
-    background-color: var(--hero-footer-background);
-}
-.logo.white {
-    color: var(--white-title-color);
-}
+
