@@ -76,7 +76,6 @@ color: var(--accent-color);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;    
-    align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
 
@@ -135,15 +134,28 @@ text-decoration: none;
 /* Portfolio  */
 .products .product-button {
     color: var(--title-text-color);
-background-color: var(--product-button-color);
-font: ra;
+    background-color: var(--product-button-color);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
 }
 .products .product-button:hover, .product-button:focus {
     color: #ffffff;
     background-color:#2196F3 ;
 }
 .products-list .product-name {
-    color: var(--title-text-color)
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.products-list .product-description{
+    
+    font-size: 16px;
+    line-height: 1,87;
 }
 /* Змінити */
 .footer {
