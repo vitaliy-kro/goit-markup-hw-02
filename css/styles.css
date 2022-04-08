@@ -165,11 +165,12 @@ text-decoration: none;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
+
 }
 .product-button.all {
     color: var(--white-title-color);
     background-color: var(--accent-color);
-    
+
 }
 .product-button:hover, .product-button:focus {
     color: var(--white-title-color);
